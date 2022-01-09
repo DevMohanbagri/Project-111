@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import statistics as stats
 import random
 
-df = pd.read_csv('../csv/medium_data.csv')
+df = pd.read_csv('medium_data.csv')
 data = df['responses'].tolist()
 
 #plotting the graph
